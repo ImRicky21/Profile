@@ -1,5 +1,7 @@
 import NavbarList from "@/components/ui/Navbar";
 import "@/styles/globals.css";
+import "@/styles/animate.css";
+import "swiper/css";
 import type { AppProps } from "next/app";
 import { Poppins } from "next/font/google";
 

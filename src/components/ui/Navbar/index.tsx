@@ -73,9 +73,9 @@ export default function NavbarList() {
             </Link>
             <Link
               className={`${isOpen ? "block" : "hidden"} md:block`}
-              href="#Achivement"
+              href="#Achievement"
             >
-              Achivement
+              Achievement
             </Link>
             <Link
               className={`${isOpen ? "block" : "hidden"} md:block`}
