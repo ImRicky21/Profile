@@ -3,7 +3,7 @@ import profile from "../../../../public/Image/bloob.png";
 export default function HeroSection() {
   return (
     <>
-      <div className="flex flex-wrap md:justify-evenly my-4 mb-4">
+      <div className="flex flex-wrap md:justify-evenly my-4 mb-10 min-h-screen ">
         <div className="md:content-center px-4">
           <div className="text-3xl">
             <h2>Hello</h2>
