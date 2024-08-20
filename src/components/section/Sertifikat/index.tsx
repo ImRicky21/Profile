@@ -45,11 +45,22 @@ export default function CertificateSection() {
         id="Achievement"
       >
         <div className="">
-          <h1 className="text-center text-2xl font-semibold text-sky-400">
+          <h1
+            data-aos="fade-up"
+            className="text-center text-2xl font-semibold text-sky-400"
+          >
             Achievement
           </h1>
+          <p data-aos="fade-up" data-aos-delay="200" className="text-center">
+            {" "}
+            -SERTIFIKAT-{" "}
+          </p>
         </div>
-        <div className="w-full max-w-4xl">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="300"
+          className="w-full max-w-4xl"
+        >
           <Swiper
             modules={[Pagination, Autoplay]}
             pagination={{ clickable: true, clickableClass: "cursor-pointer" }}

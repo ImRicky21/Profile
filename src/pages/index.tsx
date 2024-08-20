@@ -4,6 +4,7 @@ import Head from "next/head";
 import ContactSection from "@/components/section/Contact";
 import AboutSection from "@/components/section/About";
 import ProjectSection from "@/components/section/Project";
+import React, { useEffect } from "react";
 
 export default function Home() {
   return (
@@ -11,7 +12,10 @@ export default function Home() {
       <Head>
         <title>Portofolio Ricky</title>
       </Head>
-      <main className={`flex min-h-screen flex-col  my-4 py-14 scroll-smooth`}>
+
+      <main
+        className={`flex min-h-screen flex-col my-4 py-14 scroll-smooth gap-8`}
+      >
         <HeroSection />
         <AboutSection />
         <ProjectSection />
