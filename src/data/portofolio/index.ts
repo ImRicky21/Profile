@@ -1,3 +1,4 @@
+import { SiTypescript } from "react-icons/si";
 import porto1 from "../../../public/Image/project/tekpend.jpg";
 import {
   RiFirebaseFill,
@@ -13,8 +14,9 @@ const dataPorto = [
     title: "Frontend Website Teknologi Pendidikan",
     techstack: [
       { icon: RiNextjsFill, color: "text-slate-600" },
-      { icon: RiFirebaseFill, color: "fill-red-600" },
-      { icon: RiTailwindCssFill, color: "text-slate-600" },
+      { icon: RiFirebaseFill, color: "text-yellow-400" },
+      { icon: RiTailwindCssFill, color: "text-sky-400" },
+      { icon: SiTypescript, color: "text-blue-600" },
     ],
     link: "https://skripsi-riki.vercel.app/",
   },
