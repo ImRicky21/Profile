@@ -60,7 +60,7 @@ export default function ProjectSection() {
                         key={index}
                         className="hover:relative hover:-translate-y-1 transition-all ease-in-out"
                       >
-                        <p className={`text-3xl ${IconColor} `}>
+                        <p className={`text-3xl text-${IconColor} `}>
                           <Icon />
                         </p>
                       </div>
