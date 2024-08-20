@@ -9,10 +9,6 @@ import React, { useEffect } from "react";
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Portofolio Ricky</title>
-      </Head>
-
       <main
         className={`flex min-h-screen flex-col my-4 py-14 scroll-smooth gap-8`}
       >
