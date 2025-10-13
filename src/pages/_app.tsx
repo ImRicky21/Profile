@@ -9,7 +9,6 @@ import { useEffect, useState } from "react";
 import AOS from "aos";
 import Footer from "@/components/ui/Footer";
 import Head from "next/head";
-import favicon32x32 from "../../public/favicon/favicon-32x32.png";
 
 const PoppinsFont = Poppins({
   subsets: ["latin"],

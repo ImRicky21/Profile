@@ -25,7 +25,7 @@ export default function ProjectSection() {
         data-aos-delay="300"
         className="flex  justify-center"
       >
-        <div>
+        <div className="flex flex-wrap sm: justify-center">
           {data.map((item: any) => (
             <div
               key={item.id}

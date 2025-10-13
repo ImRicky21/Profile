@@ -1,6 +1,13 @@
 import { useEffect, useState } from "react";
+import { BiLogoFlutter } from "react-icons/bi";
 import { FaReact } from "react-icons/fa6";
-import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { MdFlutterDash } from "react-icons/md";
+import {
+  RiFlutterFill,
+  RiFlutterLine,
+  RiNextjsFill,
+  RiTailwindCssFill,
+} from "react-icons/ri";
 import {
   SiJavascript,
   SiLaravel,
@@ -25,7 +32,7 @@ const icons = [
   {
     id: 3,
     icon: SiPrisma,
-    color: "text-red-600",
+    color: "text-teal-600",
   },
   {
     id: 4,
@@ -52,6 +59,11 @@ const icons = [
     icon: TbBrandKotlin,
     color: "text-purple-600",
   },
+  {
+    id: 9,
+    icon: RiFlutterFill,
+    color: "text-sky-400",
+  },
 ];
 
 export default function AboutSection() {
@@ -73,9 +85,9 @@ export default function AboutSection() {
         </div>
         <div className="my-9 px-9">
           <p className="text-center md:mx-9 md:px-9" data-aos="fade-up">
-            Saya Ricky Rahmad Ramadhana, mahasiswa semester akhir S-1 Teknologi
-            Pendidikan dari Universitas Lambung Makurat. Saya memiliki minat
-            pada bidang Front-end Developer dan saya juga tertarik pada
+            Saya Ricky Rahmad Ramadhana, fesh graduate S-1 Teknologi Pendidikan
+            dari Universitas Lambung Makurat. Saya memiliki minat pada bidang
+            Front-end Developer dan fullstack developer, saya juga tertarik pada
             pengembangan mobile app.
           </p>
         </div>
